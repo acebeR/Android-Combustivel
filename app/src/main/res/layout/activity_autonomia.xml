@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AutonomiaActivity">
+
+    <ImageView
+        android:id="@+id/fundoImg"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/posto"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/lbVisula1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fundoImg" />
+
+    <EditText
+        android:id="@+id/labelKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbVisula1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:hint="@string/stgLabelKm"/>
+
+    <TextView
+        android:id="@+id/lbVisula2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelKm" />
+
+    <EditText
+        android:id="@+id/labelLitros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbVisula2"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:hint="@string/stgLabelLitros" />
+
+    <TextView
+        android:id="@+id/lbVisual3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelLitros" />
+    <TextView
+        android:id="@+id/lbVisual5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labelLitros" />
+    <TextView
+        android:id="@+id/lbVisual4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/lbVisual5"
+        android:text="@string/stgLbResultado" />
+    <TextView
+        android:id="@+id/labelResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_below="@+id/lbVisual4" />
+    <TextView
+        android:id="@+id/lbVisual6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/labelResultado" />
+
+    <Button
+        android:id="@+id/btnCalcularAutonomia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbVisual6"
+        android:text="@string/stgBtnCalcular" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCalcularAutonomia"
+        android:text="@string/stgBtnVoltar" />
+
+</RelativeLayout>

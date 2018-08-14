@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Exercicio_01_aula_02_Combustivel</string>
+    <string name="strBtnCombustivel">Combustível</string>
+    <string name="strbtnAutonomia">Autonomia</string>
+
+    <string name="stgLabelAlcool">Alcool</string>
+    <string name="stgLabelGasolina">Gasolina</string>
+    <string name="stgBtnCalcular">Calcular</string>
+
+    <string name="stgLabelKm">Km:</string>
+    <string name="stgLabelLitros">Litros</string>
+
+    <string name="stgBtnVoltar">Voltar</string>
+    <string name="stgLbResultado">Resultado</string>
+
+</resources>
