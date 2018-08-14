@@ -47,7 +47,7 @@ public class AutonomiaActivity extends Activity implements View.OnClickListener 
                 Float kmFloat = Float.parseFloat(km);
 
                 labelLitros = findViewById(R.id.labelLitros);
-                String litros = labelKm.getText().toString();
+                String litros = labelLitros.getText().toString();
                 Float litrosFloat = Float.parseFloat(litros);
 
                 Float resultado = kmFloat/litrosFloat;
